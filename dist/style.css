@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  color: black;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.btn div {
+  width: 56px;
+  height: 56px;
+  transform: translate3d(0, 0, 0);
+}
+.btn div svg path {
+  margin: 0 auto;
+}
